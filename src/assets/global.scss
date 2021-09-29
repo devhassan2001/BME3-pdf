@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+$open_sans_font: 'Open Sans', sans-serif;
+
+// * Global style
+*, *::after,
+*::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(94.87deg, #503584 7.63%, #503584 7.64%, rgba(75, 65, 141, 0.86) 51.97%, #474B95 91.95%);
+}
+.validation {
+    z-index: 50;
+}
+.hamIcon {
+    margin-top: 20px;
+}
+
+// * change defualt style of elements
+::placeholder {
+    color: #9D83CD;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: none;
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+
+// * headers 
+h3, h4, h5, h6, p {
+    font-family: $open_sans_font;
+    font-weight: 400;
+    line-height: 140%;
+}
+h3 { font-size: 1.953rem; }
+h4 { font-size: 1.563rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 12px; }
+p { font-size: 1rem; }
